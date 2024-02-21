@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://b45ls462we0up"]
+
+[ext_resource type="Texture2D" uid="uid://ca8cxuq0d516j" path="res://Cartoon-Background-Of-Spring-Flowers-Field-With-Blue-Sky-63730080-1.png" id="1_4rco2"]
+[ext_resource type="Texture2D" uid="uid://crpbg1w6h0i7k" path="res://pngimg.com - bee_PNG74711.png" id="2_olkhm"]
+[ext_resource type="Script" path="res://bee.gd" id="3_sj0qg"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="flowerbackground" type="Sprite2D" parent="."]
+position = Vector2(1705, 903)
+scale = Vector2(3.35937, 2.76354)
+texture = ExtResource("1_4rco2")
+
+[node name="bee" type="Sprite2D" parent="."]
+position = Vector2(2048, 625)
+scale = Vector2(0.17495, 0.190275)
+texture = ExtResource("2_olkhm")
+script = ExtResource("3_sj0qg")
+speed = 10
